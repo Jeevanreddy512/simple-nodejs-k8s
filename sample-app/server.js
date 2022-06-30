@@ -14,5 +14,5 @@ function handleRequest (request, response) {
 var server = http.createServer(handleRequest);
 
 server.listen(port, function () {
-  console.log('Server listening on port', port);
+  console.log('Server listening on port=', port);
 });
